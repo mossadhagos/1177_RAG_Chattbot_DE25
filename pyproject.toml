@@ -1,0 +1,13 @@
+[project]
+name = "1177-rag-chattbot"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=1.13"
+dependencies = []
+
+[tool.uv.workspace]
+members = [
+    "backend",
+    "frontend",
+]
