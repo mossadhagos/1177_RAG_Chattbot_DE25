@@ -7,7 +7,7 @@ authors = [
     { name = "giraudc - cpu", email = "giraudcgc@gmail.com" }
 ]
 requires-python = ">=1.13"
-dependencies = []
+dependencies = ["pydantic-ai", "lancedb", "fastapi", "uvicorn", "logfire[fastapi,httpx,variables]", "cohere", "python-dotenv", "httpx"]
 
 [project.scripts]
 backend = "backend:main"
