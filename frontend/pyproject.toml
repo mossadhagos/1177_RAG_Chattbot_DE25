@@ -6,8 +6,8 @@ readme = "README.md"
 authors = [
     { name = "giraudc - cpu", email = "giraudcgc@gmail.com" }
 ]
-requires-python = ">=1.13"
-dependencies = []
+requires-python = ">=3.13"
+dependencies = ["streamlit", "httpx"]
 
 [project.scripts]
 frontend = "frontend:main"
