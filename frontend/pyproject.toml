@@ -4,8 +4,18 @@ version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 authors = [
+<<<<<<< HEAD
     { name = "giraudc - cpu", email = "giraudcgc@gmail.com" }
 ]
+requires-python = ">=3.13"
+dependencies = ["streamlit", "httpx"]
+=======
+    { name = "Karl Rydberg", email = "kalle.rydberg02@gmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = ["streamlit", 
+                "httpx"]
+>>>>>>> 14d13eed4f2b1c7fd3d68ebf3b1d325afca0a688
 requires-python = ">=3.13"
 dependencies = ["streamlit", "httpx"]
 
@@ -13,5 +23,9 @@ dependencies = ["streamlit", "httpx"]
 frontend = "frontend:main"
 
 [build-system]
+<<<<<<< HEAD
 requires = ["uv_build>=0.12.15,<0.13.0"]
+=======
+requires = ["uv_build>=0.8.17,<0.9.0"]
+>>>>>>> 14d13eed4f2b1c7fd3d68ebf3b1d325afca0a688
 build-backend = "uv_build"
