@@ -1,12 +1,4 @@
 [project]
-<<<<<<< HEAD
-name = "1177-rag-chattbot"
-version = "0.1.0"
-description = "Add your description here"
-readme = "README.md"
-requires-python = ">=1.13"
-dependencies = ["firecrawl-py", "ipykernel"]
-=======
 name = "1177-rag-chattbot-de25"
 version = "0.1.0"
 description = "Add your description here"
@@ -14,7 +6,6 @@ readme = "README.md"
 requires-python = ">=3.13"
 dependencies = ["firecrawl-py", 
                 "ipykernel"]
->>>>>>> 14d13eed4f2b1c7fd3d68ebf3b1d325afca0a688
 
 [tool.uv.workspace]
 members = [
