@@ -8,14 +8,6 @@ authors = [
 ]
 requires-python = ">=3.13"
 dependencies = ["streamlit", "httpx"]
-<<<<<<< HEAD
-=======
-    { name = "Karl Rydberg", email = "kalle.rydberg02@gmail.com" }
-]
-requires-python = ">=3.13"
-dependencies = ["streamlit", 
-                "httpx"]
->>>>>>> 14d13eed4f2b1c7fd3d68ebf3b1d325afca0a688
 requires-python = ">=3.13"
 dependencies = ["streamlit", "httpx"]
 =======
