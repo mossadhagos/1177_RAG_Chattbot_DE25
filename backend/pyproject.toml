@@ -5,7 +5,7 @@ description = "Add your description here"
 readme = "README.md"
 
 requires-python = ">=3.13"
-dependencies = ["pydantic-ai", "lancedb", "fastapi", "uvicorn", "logfire[fastapi,httpx,variables]", "cohere", "python-dotenv", "httpx"]
+dependencies = ["pydantic-ai", "lancedb", "fastapi", "uvicorn", "logfire[fastapi, httpx,variables]", "cohere", "python-dotenv", "httpx"]
 
 [project.scripts]
 backend = "backend:main"
